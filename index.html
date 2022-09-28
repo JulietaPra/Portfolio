@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/ac03a24619.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Pra Julieta</title>
+  </head>
+  <body>
+    <!---Seccion Menu-->
+    <header>
+      <div class="menu">
+        <nav>
+          <ul class="nav-menu">
+            <li class="nav-item"> <a href="#main-section">HOLA</a></li>
+            <li class="nav-item"> <a href="#knowledge-section">CONOCIMIENTOS</a> </li>
+            <li class="nav-item"> <a href="#projects-section"> PROYECTO</li></a>
+            <li class="key"> <a href="#contacts-section">CONTACTO</li></a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--Seccion Principal-->
+    <main>
+      <section class="main-section" id="main-section"> 
+          <div class="main-profile">
+            <h2 class="greeting">Hola! Soy</h2>
+            <h1 class="name">Julieta Pra</h1>
+            <p class="who-i-am">
+              Desarrolladora, emprendedora y amante de los detalles.</br>
+              Te invito a que conozcas mas sobre mi!
+            </p>
+            <a href="#seccion-proyectos">LO QUE HAGO</a>
+          </div>
+          <div class="main-image">
+          <img
+            src="imagenes/1637273178339.jfif"
+            alt="Imagen retrato"
+            class="profile-picture" 
+          /> 
+        </div>
+      </section>
+      <!--Seccion Conocimientos-->
+      <section class="knowledge-section" id="knowledge-section">
+        <div class="s-knowledge">
+        <h2>Mis conocimientos</h2>
+        <p>Estos son los conocimientos adquiridos a lo largo de la cursada</p>
+       
+        <div class="knowledge-container">
+          <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" > 
+          <div class="HTML5"> 
+          <i class="fa-brands fa-html5"></i>
+          <p><b>HTML 5</b></p>
+          </div></a>
+
+          <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
+           <div class="CSS">
+           <i class="fa-brands fa-css3-alt"></i>
+           <p><b>CSS</b></p>
+          </div></a>
+
+          <a href="https://github.com/JulietaPra">
+            <div class="GIT">
+            <i class="fa-brands fa-git-alt"></i>
+            <p><b>GIT</b></p>
+          </div></a>
+      </div>
+    </div>
+      </section>
+      <!--Seccion Frase-->
+      <section class="phrase-section">
+        <div class="son-phrase">
+        <i class="fa-solid fa-quote-right"></i>
+          <blockquote><p class="son-phrase">
+              La creatividad es inventar, experimentar, crecer, tomar riesgos,
+              romper las reglas, cometer errores y divertirse.
+          </p> </blockquote>
+          <h3 class="quote">Mary Lou Cook</h3>
+        </div>
+      </section>
+      <!--Seccion Proyectos-->
+      <section class="projects-section" id="projects-section">
+        <div class="container-project">
+          <h2 class="project-title">Mis proyectos</h2>
+          <p class="project-paragraph">
+            Estos son los proyectos que fui realizando a lo largo de mi carrera
+            como Desarrolladora Front-End.
+          </p>
+          <div class="project-grid">
+            <a class="portfolio" target="_blank" href="portfolio">
+            <img src="Imagenes/Juliet.png">
+            <p>Portfolio</p></a>
+          </div>
+        </div>
+      </section>
+      <!--Seccion Contactos-->
+     <section class="contacts-section" id="contacts-section">
+      <div class="column">
+        <div class="contact">
+        <section class="contact-column">
+          <h2>Contactame</h2>
+          <p>Para obtener informacion sobre mi, ver mis trabajos o contactarme
+             buscame en las redes sociales a continuacion.</br> 
+             O, podes dejar tu mensaje en el contenedor  :)
+          </p>
+          <div class="social-networks">
+            <ul class="networks">
+              <li class="mail">
+                <a href="mailto:julipra@hotmail.es">
+                <i class="fa-solid fa-envelope"></i> Julipra@hotmail.es </a>
+              </li>
+              <li class="linkedin" >
+                <a href="https://www.linkedin.com/in/julieta-pra-/">
+                <i class="fa-brands fa-linkedin"></i>  JulietaPra </a>
+              </li>
+              <li class="git" >
+                <a href="https://github.com/JulietaPra">
+                <i class="fa-brands fa-github"></i>  JulietaPra</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      <section class="contact-column">
+        <h2>Escribime</h2>
+                  <form action="https://submit-form.com/dZv3lZKLnN2eByG6HXaMj" method="POST" class="contacto-formulario">
+                    <div class="full-name">
+                      <div class="name">
+                        <label for="firstname">Nombre</label>
+                        <input type="text" name="Nombre" id="firtsname" class="nombre-" placeholder="ej: Julieta" aria-label="Nombre" required="">
+                      </div>
+                      <div class="surname">
+                        <label for="lastname">Apellido</label>
+                        <input type="text" name="Apellido" id="lastname" class="apellido" placeholder="ej: Pra" aria-label="Apellido" required="">
+                      </div>
+                    </div>
+                    <div class="email-contact">
+                      <label for="email">Email</label>
+                      <input type="email" name="Email" id="email" class="input-control" placeholder="ej: espaciodeco.ba@gmail.com" aria-label="Email" required="">
+                     
+                    </div>
+                    <div class="menssage-contact">
+                      <label for="message">Mensaje</label>
+                      <textarea name="Mensaje" id="message" maxlength="100" cols="30" rows="10" class="input-control" placeholder="Deja tu mensaje" aria-label="Mensaje" required=""></textarea>
+                    </div>
+                    <button type="submit" class="send-button">
+                      Enviar
+                    </button>
+                  </form>
+      </section>    
+     </section>
+    </div>
+    </div>
+    </main>
+    <!--Seccion Footer-->
+    <footer>
+      <nav class="lower-browser">
+        <ul class="browser">
+          <li class="lower-browser">
+          <a href="#main-section">HOLA</a></li>
+          <li>
+            <a href="#knowledge-section">CONOCIMIENTOS</a> </li>
+          <li class="lower-browser"><a href="#projects-section"> PROYECTO</li></a>
+          <li class="lower-browser"><a href="#contacts-section"> CONTACTO</li></a>
+        </ul>
+      </nav>
+<section class="low-browser">
+  <ul>
+    <li class="icon" >
+      <a href="https://www.linkedin.com/in/julieta-pra-/">
+     <i class="fa-brands fa-linkedin"></i></a>
+    </li>
+    <li class="icon">
+      <a href="mailto:julipra@hotmail.es">
+     <i class="fa-solid fa-envelope"></i></a>
+    </li>
+    <li class="icon">
+      <a href="https://github.com/JulietaPra">
+      <i class="fa-brands fa-github"></i></a>
+    </li>
+  </ul> 
+</section> 
+        <p>Esta pagina la hizo Juli Pra <i class="fa-solid fa-heart"></i></p>
+    </footer>
+  </body>
+</html>
